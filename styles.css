@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+}
+header{
+    color: white;
+    background-color: #46a356;
+}
+.logo{
+    width: 80px;
+    margin-left: 20px;
+}
+.link{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#link-title-1{
+    margin-left: 60%;
+}
+.carousel{
+    width: 750px;
+    height: 393px;
+    margin-top: 25px;
+}
+.title{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.text-1{
+    background-color: #CBEED1;
+    width: 750px;
+    height: 393px;
+}
+.sub-title{
+    text-align: center;
+}
+.image-project{
+    width: 70%;
+    text-align: center;
+}
+.btn{
+    color: black;
+    background-color: #46a356;
+    border-radius: 50px;
+    width: 15%;
+    margin-top: 30px;
+}
+.btn:hover{
+    background-color: #5ad86f;
+}
+.text-information{
+    margin-left: 20%;
+}
+.image-advertising{
+    width: 40%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+footer {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #46a356;
+}
+.footer{
+    margin-top: 10px;
+    
+}
+footer div ul{
+    text-align: center;
+    list-style: none;
+}
+.color-email{
+    color: #FFFFFFA6;
+}
+
