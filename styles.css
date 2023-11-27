@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    padding: 0;
 }
 header{
     color: white;
@@ -35,8 +36,8 @@ header{
     text-align: center;
 }
 .image-project{
+    margin-left: 10%;
     width: 70%;
-    text-align: center;
 }
 .btn{
     color: black;
@@ -49,7 +50,7 @@ header{
     background-color: #5ad86f;
 }
 .text-information{
-    margin-left: 20%;
+    text-align: center justify;
 }
 .image-advertising{
     width: 40%;
@@ -65,7 +66,6 @@ footer {
 }
 .footer{
     margin-top: 10px;
-    
 }
 footer div ul{
     text-align: center;
@@ -74,4 +74,7 @@ footer div ul{
 .color-email{
     color: #FFFFFFA6;
 }
-
+/* Margin a mais zerada */
+.row{
+    --bs-gutter-x: 0 !important;
+}
