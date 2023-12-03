@@ -18,8 +18,8 @@ header{
     margin-left: 60%;
 }
 .carousel{
-    width: 750px;
-    height: 393px;
+    width: 39.5%;
+    height: 30%;
     margin-top: 25px;
 }
 .title{
@@ -29,11 +29,17 @@ header{
 }
 .text-1{
     background-color: #CBEED1;
-    width: 750px;
-    height: 393px;
+    width: 40%;
+    height: 50%;
 }
 .sub-title{
     text-align: center;
+    margin-top: 5%;
+    margin-right: 25%;
+    margin-bottom: 3%;
+}
+.texto-atividades{
+    margin-right: 20%;
 }
 .image-project{
     margin-left: 10%;
@@ -50,7 +56,7 @@ header{
     background-color: #5ad86f;
 }
 .text-information{
-    text-align: center justify;
+    text-align: center;
 }
 .image-advertising{
     width: 40%;
@@ -73,6 +79,10 @@ footer div ul{
 }
 .color-email{
     color: #FFFFFFA6;
+}
+.btn a{
+    text-decoration: none;
+    color: black;
 }
 /* Margin a mais zerada */
 .row{
