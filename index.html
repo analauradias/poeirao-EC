@@ -13,125 +13,143 @@
 
 <body>
 
+    <!--Section 1-Header-->
     <header>
-        <div class="container-fluid p-2 text-light ">
+        <div class="container-fluid p-2 text-light">
             <ul class="nav">
-                <a href="index.html">
+                <li>
                     <img class="logo" src="image-icon/poeirao-logo.jpg" alt="logo">
-                </a>
+                </li>
                 <li id="link-title-1" class="nav-item link">
-                    <a class="nav-link text-light" href="#">ATIVIDADES</a>
+                    <a class="nav-link text-light" href="#activity">ATIVIDADES</a>
                 </li>
                 <li class="nav-item link">
-                    <a class="nav-link text-light" href="#">PROJETOS</a>
+                    <a class="nav-link text-light" href="#project">PROJETOS</a>
                 </li>
                 <li class="nav-item link">
-                    <a class="nav-link text-light" href="#">CONTATOS</a>
+                    <a class="nav-link text-light" href="#contacts">CONTATOS</a>
                 </li>
             </ul>
+        </div>
     </header>
 
-    <section id="demo" class="carousel slide mx-auto" data-bs-ride="carousel">
+    <main>
+        <!--Section 2-Carousel-->
+        <section id="demo" class="carousel slide mx-auto" data-bs-ride="carousel">
 
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
-        </div>
-
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="image-icon/livre-carrosel.jpg" alt="imagem-1"
-                    class="d-block" style="width:100%">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
             </div>
-            <div class="carousel-item">
-                <img src="image-icon/campo.jpg" alt="imagem-1"
-                    class="d-block" style="width:100%">
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="image-icon/livre-carrosel.jpg" alt="imagem-1" class="d-block" style="width:100%">
+                </div>
+                <div class="carousel-item">
+                    <img src="image-icon/campo.jpg" alt="imagem-1" class="d-block" style="width:100%">
+                </div>
+                <div class="carousel-item">
+                    <img src="image-icon/festadascriancas-atual.jpg" alt="imagem-1" class="d-block" style="width:100%">
+                </div>
             </div>
-            <div class="carousel-item">
-                <img src="image-icon/festadascriancas-atual.jpg" alt="imagem-1"
-                    class="d-block" style="width:100%">
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </section>
+
+        <!--Section 3-->
+        <section class="row mx-auto">
+            <h1 class="title">POEIRÃO E.C.</h1>
+            <div class="col-sm-12 p-3 mx-auto text-1">
+                <p>O Poeirão Esporte Clube é uma Associação sem fins lucrativos fundada dia 11/06/2013, no bairro
+                    Itajuba em Barra Velha (SC). O Poeirão tem como objetivo levar o esporte e a cultura à comunidade
+                    por meio de atividades beneficentes que atedem crianças, adolescentes, jovens, adultos e idosos.</p>
+                <p>Presidente da diretoria: César Cardoso Dias.</p>
+                <p class="text-center"><strong>A sociedade civil unida é muito mais forte!</strong></p>
             </div>
-        </div>
+        </section>
 
-        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon"></span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-            <span class="carousel-control-next-icon"></span>
-        </button>
-    </section>
+        <!--Section 4-Activity-->
+        <section id="activity" class="row mx-auto">
+            <h1 class="title">ATIVIDADES</h1>
+            <img src="image-icon/fotos-atividades.png" alt="image-ativities" style="width:100%">
+        </section>
 
-    <section class="row mx-auto">
-        <h1 class="title">POEIRÃO E.C.</h1>
-        <div class="col-sm-12 p-3 mx-auto text-1">
-            <p>O Poeirão Esporte Clube é uma Associação sem fins lucrativos fundada dia 11/06/2013, no bairro Itajuba em Barra Velha (SC). O Poeirão tem como objetivo levar o esporte e a cultura à comunidade por meio de atividades beneficentes que atedem crianças, adolescentes, jovens, adultos e idosos.</p>
-            <p>Presidente da diretoria: César Cardoso Dias.</p>
-            <p class="text-center"><strong>A sociedade civil unida é muito mais forte!</strong></p>
-        </div>
-    </section>
+        <!--Section 5-Project-->
+        <section id="project" class="row mx-auto">
+            <h1 class="title">ALGUNS DE NOSSOS PROJETOS E PARCERIAS</h1>
+            <div class="col-sm-6 p-3">
+                <img src="image-icon/escolinha.jpg" class="image-project" alt="image">
+            </div>
+            <div class="col-sm-6 p-3">
+                <h4 class="sub-title">ESCOLINHA DE FUTEBOL</h4>
+                <p class="text-activity">A escolinha de futebol foi um dos projetos beneficentes feitos pelo Poeirão
+                    Esporte Clube em parceria com a Prefeitura Municipal de Barra Velha e que pretende ser reativado no
+                    segundo semestre de 2024.</p>
+            </div>
 
-    <section class="row mx-auto">
-        <h1 class="title">ATIVIDADES</h1>
-        <img src="image-icon/pes-com-chuteiras-disputando-por-bola-em-campo-de-futebol.webp" alt="image-ativities"
-            style="width:100%">
-    </section>
+            <div class="col-sm-6 p-3">
+                <img src="image-icon/doces.jpg" class="image-project" alt="image">
+            </div>
+            <div class="col-sm-6 p-3">
+                <h4 class="sub-title">DIA DAS CRIANÇAS</h4>
+                <p class="text-activity">O evento do dia das crianças é completamente gratuito e acontece a dois anos na
+                    Associação. Projetos Sociais de Barra Velha em parceria com o Poeirão Esporte Clube fazem esta festa
+                    acontecer. O espaço é cedido pela Associação e o evento é organizado pelo Projeto Social que além de
+                    oferecer comida, também distribui brinquedos para as crianças.</p>
+            </div>
 
-    <section class="row mx-auto">
-        <h1 class="title">ALGUNS DE NOSSOS PROJETOS E PARCERIAS</h1>
-        <div class="col-sm-6 p-3">
-            <img src="image-icon/escolinha.jpg" class="image-project" alt="image">
-        </div>
-        <div class="col-sm-6 p-3">
-            <h4 class="sub-title">ESCOLINHA DE FUTEBOL</h4>
-            <p class="texto-atividades">A escolinha de futebol foi um dos projetos beneficentes feitos pelo Poeirão Esporte Clube em parceria com a Prefeitura Municipal de Barra Velha e que pretende ser reativado no segundo semestre de 2024.</p>
-        </div>
+            <div class="col-sm-6 p-3">
+                <img src="image-icon/time-livre.jpg" class="image-project" alt="image">
+            </div>
+            <div class="col-sm-6 p-3">
+                <h4 class="sub-title">TIME LIVRE</h4>
+                <p class="text-activity">O time livre do Poeirão participa do Campeonato Municipal de Barra Velha e
+                    também de Torneios Regionais.</p>
+            </div>
 
-        <div class="col-sm-6 p-3">
-            <img src="image-icon/doces.jpg" class="image-project" alt="image">
-        </div>
-        <div class="col-sm-6 p-3">
-            <h4 class="sub-title">DIA DAS CRIANÇAS</h4>
-            <p class="texto-atividades">O evento do dia das crianças é completamente gratuito e acontece a dois anos na Associação. Projetos Sociais de Barra Velha em parceria com o Poeirão Esporte Clube fazem esta festa acontecer. O espaço é cedido pela Associação e o evento é organizado pelo Projeto Social que além de oferecer comida, também distribui brinquedos para as crianças.</p>
-        </div>
+            <button class="btn mx-auto" type="button"><a target="_blank"
+                    href="https://www.facebook.com/poeirao.esporte.clube.2023/">MAIS INFORMAÇÕES</a></button>
+        </section>
 
-        <div class="col-sm-6 p-3">
-            <img src="image-icon/time-livre.jpg" class="image-project" alt="image">
-        </div>
-        <div class="col-sm-6 p-3">
-            <h4 class="sub-title">TIME LIVRE</h4>
-            <p class="texto-atividades">O time livre do Poeirão participa do Campeonato Municipal de Barra Velha e também de Torneios Regionais.</p>
-        </div>
+        <!--Section 6-Contacts-->
+        <section id="contacts" class="row">
+            <h1 class="title">CONTATE-NOS</h1>
+            <div class="text-center">
+                <p><strong>FACEBOOK:</strong> <a target="_blank"
+                        href="https://www.facebook.com/poeirao.esporte.clube.2023/">Poeirão Esporte Clube</a></p>
+                <p><strong>WHATSAPP:</strong> (47) 98902-7527 (César)</p>
+                <p><strong>ENDEREÇO:</strong> Rua 1209, n<sup>o</sup> 111, Bairro Itajuba - Barra Velha (SC)</p>
+            </div>
+        </section>
 
-        <button type="button" class="btn mx-auto"> <a target="_blank" href="https://www.facebook.com/poeirao.esporte.clube.2023/">MAIS INFORMAÇÕES</a></button>
-    </section>
+        <!--Section 7-Contacts-->
+        <section class="row">
+            <h2 class="title">FAÇA SUA PROPAGANDA</h2>
+            <img src="image-icon/propaganda.jpg" alt="image" class="image-advertising mx-auto">
+            <p class="text-center">ENTRE EM CONTATO CONOSCO PELO TELEFONE (47) 98902-7527 (César)</p>
+        </section>
+    </main>
 
-    <section class="row">
-        <h1 class="title">CONTATE-NOS</h1>
-        <div class="text-information">
-            <p><strong>FACEBOOK:</strong> <a target="_blank" href="https://www.facebook.com/poeirao.esporte.clube.2023/">Poeirão Esporte Clube</a></p>
-            <p><strong>WHATSAPP:</strong> (47) 98902-7527 (César)</p>
-            <p><strong>ENDEREÇO:</strong> Rua 1209, n<sup>o</sup> 111, Bairro Itajuba - Barra Velha (SC)</p>
-        </div>
-        
-    </section>
-    
-    <section class="row">
-        <h2 class="title">FAÇA SUA PROPAGANDA</h2>
-        <img src="image-icon/propaganda.jpg" alt="image" class="image-advertising mx-auto">
-        <p class="text-center">ENTRE EM CONTATO CONOSCO PELO TELEFONE (47) 98902-7527 (César)</p>
-    </section>
-
+    <!--Section 8-Footer-->
     <footer class="text-lg-start text-light">
         <div class="footer">&copy; 2023. Todos os direitos reservados.</div>
         <div class="footer">
-          <ul>
-            <li> Email de suporte do site</li>
-            <li class="color-email">analauramanfron@gmail.com</li>
-            <li class="color-email">barbieridacruzrafaela@gmail.com</li>
-          </ul>
-        </div class="footer">
-        <div><img class="logo" src="image-icon/poeirao-logo.jpg" alt=""></div>
+            <ul>
+                <li> Email de suporte do site</li>
+                <li class="color-email">analauramanfron@gmail.com</li>
+                <li class="color-email">barbieridacruzrafaela@gmail.com</li>
+            </ul>
+        </div>
+        <div class="footer">
+            <a href="#"><img class="logo" src="image-icon/poeirao-logo.jpg" alt="image"></a>
+        </div>
     </footer>
 
 </body>

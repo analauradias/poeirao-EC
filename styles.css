@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
 }
+
+/*Header*/
 header{
     color: white;
     background-color: #46a356;
@@ -17,11 +19,15 @@ header{
 #link-title-1{
     margin-left: 60%;
 }
+
+/*Carousel*/
 .carousel{
     width: 39.5%;
     height: 30%;
     margin-top: 25px;
 }
+
+/*Section*/
 .title{
     text-align: center;
     margin-top: 25px;
@@ -38,7 +44,7 @@ header{
     margin-right: 25%;
     margin-bottom: 3%;
 }
-.texto-atividades{
+.text-activity{
     margin-right: 20%;
 }
 .image-project{
@@ -55,14 +61,17 @@ header{
 .btn:hover{
     background-color: #5ad86f;
 }
-.text-information{
-    text-align: center;
-}
 .image-advertising{
     width: 40%;
     margin-top: 25px;
     margin-bottom: 25px;
 }
+.btn a{
+    text-decoration: none;
+    color: black;
+}
+
+/*Footer*/
 footer {
     display: flex;
     text-align: center;
@@ -80,10 +89,7 @@ footer div ul{
 .color-email{
     color: #FFFFFFA6;
 }
-.btn a{
-    text-decoration: none;
-    color: black;
-}
+
 /* Margin a mais zerada */
 .row{
     --bs-gutter-x: 0 !important;
