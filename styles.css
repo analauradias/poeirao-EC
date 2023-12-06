@@ -105,12 +105,156 @@ footer div ul{
     }
 }
 
-@media (max-width: 1080px){
-    /*.carousel{
-        width: 45%;
-        height: 45%;
-        margin-top: 25px;
+@media (max-width: 957px){
+    body{
+        font-size: 14px;
     }
-    */
+    #link-title-1{
+       margin-left: 40%;
+    }
+    .carousel{
+        width: 50%;
+        height: 45%;
+    }
+    .text-1{
+        width: 52%;
+        height: 50%;
+    }
+    .sub-title{
+        margin-top: 0.2%;
+        margin-right: 25%;
+        margin-bottom: 3%;
+    }
+}
+@media (max-width: 790px){
+    .btn{
+        width: 25%;
+    }
+}
 
+@media (max-width: 747px){
+    #link-title-1{
+        margin-left: 30%;
+     }
+     h1{
+        font-size: 30px;
+     }
+     h4{
+        font-size: 22px;
+     }
+     .carousel{
+        width: 60%;
+        height: 45%;
+    }
+    .text-1{
+        width: 60%;
+        height: 50%;
+    }
+}
+
+@media (max-width: 634px){
+    #link-title-1{
+        margin-left: 20%;
+     }
+     .image-project{
+        margin-left: 2%;
+        width: 95%;
+    }
+    h1{
+        font-size: 25px;
+    }
+    h4{
+        font-size: 18px;
+    }
+    p{
+        font-size: 13px;
+    }
+    footer ul{
+        display: none;
+    }
+}
+
+@media (max-width: 565px){
+    #link-title-1{
+        margin-left: 10%;
+     }
+     header{
+        font-size: 14px;
+     }
+     .logo{
+        width: 55px;
+        margin-left: 20px;
+    }
+    .link{
+        margin-top: 10px;
+    }
+    .carousel{
+        width: 80%;
+    }
+    .text-1{
+        width: 80%;
+        height: 50%;
+    }
+    h1{
+        font-size: 19px;
+    }
+    .text-activity{
+        text-align: center;
+        margin-right: 5px;
+    }
+    .sub-title{
+        text-align: center;
+        margin-top: 1.5%;
+        margin-right: 5%;
+        margin-bottom: 3%;
+    }
+    .btn{
+        font-size: 14px;
+        width: 30%;
+    }
+
+}
+
+@media (max-width: 475px){
+    #link-title-1{
+        margin-left: 3%;
+     }
+     .link{
+        margin-left: 5px;
+        font-size: 15px;
+     }
+     .carousel{
+        width: 90%;
+    }
+    .text-1{
+        width: 90%;
+        height: 50%;
+    }
+    .image-advertising{
+        width: 80%;
+        
+    }
+}
+
+@media (max-width: 425px){
+     .link{
+        margin-left: 2px;
+        font-size: 13px;
+     }
+     .sub-title{
+        margin-top: 0.5%;
+    }
+}
+
+@media (max-width: 390px){
+    .link{
+        margin-left: 2px;
+        font-size: 11px;
+     }
+     .btn{
+        width: 40%;
+     }
+     .image-advertising{
+        width: 90%;   
+    }
 }
