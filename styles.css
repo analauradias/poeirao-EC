@@ -215,7 +215,7 @@ footer div ul{
 
 }
 
-@media (max-width: 475px){
+@media (max-width: 485px){
     #link-title-1{
         margin-left: 3%;
      }
@@ -236,7 +236,7 @@ footer div ul{
     }
 }
 
-@media (max-width: 425px){
+@media (max-width: 450px){
      .link{
         margin-left: 2px;
         font-size: 13px;
@@ -246,7 +246,7 @@ footer div ul{
     }
 }
 
-@media (max-width: 390px){
+@media (max-width: 400px){
     .link{
         margin-left: 2px;
         font-size: 11px;
@@ -256,5 +256,11 @@ footer div ul{
      }
      .image-advertising{
         width: 90%;   
+    }
+}
+
+@media (max-width: 370px){
+    .logo{
+        margin-left: 5px;
     }
 }

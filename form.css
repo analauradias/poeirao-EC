@@ -1,12 +1,13 @@
 body{
-    background-color: white;
+    background-color: #46a35531;
     color: #306e3b;
 }
 
 /*Title*/
 h1{
     text-align: center;
-    margin-top: 20px;
+    margin-top: 40px;
+    margin-bottom: 20px;
 }
 
 /*Form*/
@@ -15,7 +16,7 @@ h1{
     justify-content: center;
     align-items: center;
     border-radius: 5px;
-    background-color: rgba(180, 180, 180, 0.247);
+    background-color: rgba(255, 255, 255, 0.425);
     margin-left: 30%;
     margin-right: 30%;
 }
@@ -38,5 +39,28 @@ fieldset{
 .btn:hover{
     background-color: #5ad86f;
 }
+#verification{
+    margin-left: 5px;
+}
 
+/*Responsividade*/
+@media (max-width: 680px){
+    .form{
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+}
+@media (max-width: 460px){
+    .form{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+@media (max-width: 348px){
+    .form{
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+}
 
