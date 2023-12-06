@@ -1,4 +1,42 @@
-form, fieldset{
-    display: block;
-    align-items: center;
+body{
+    background-color: white;
+    color: #306e3b;
 }
+
+/*Title*/
+h1{
+    text-align: center;
+    margin-top: 20px;
+}
+
+/*Form*/
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: rgba(180, 180, 180, 0.247);
+    margin-left: 30%;
+    margin-right: 30%;
+}
+input{
+    display: block;
+    border: 1px solid #46a356;
+}
+fieldset{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+#checkbox{
+    display: flex;
+}
+.btn{
+    color: black;
+    background-color: #46a356;
+    border-radius: 50px;
+}
+.btn:hover{
+    background-color: #5ad86f;
+}
+
+
